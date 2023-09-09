@@ -16,5 +16,5 @@ Usage to Just Open: `<path_to>\Webbedder.exe "<your_link>"`
 ## Download
 [![](https://img.shields.io/badge/download-(x86)_Standalone-red)](https://github.com/Lexz-08/releases/download/latest/Webbedder-x86.zip)<br>
 [![](https://img.shields.io/badge/download-(x64)_Standalone-red)](https://github.com/Lexz-08/releases/download/latest/Webbedder-x64.zip)<br>
-[![](https://img.shields.io/badge/download-(x86)_Installer-orange)](https://github.com/Lexz-08/releases/download/latest/Install.Webbedder-x86.exe)<br>
-[![](https://img.shields.io/badge/download-(x64)_Installer-orange)](https://github.com/Lexz-08/releases/download/latest/Install.Webbedder-x64.exe)
+[![](https://img.shields.io/badge/download-(x86)_Installer-orange)](https://github.com/Lexz-08/releases/download/latest/Install-Webbedder-x86.exe)<br>
+[![](https://img.shields.io/badge/download-(x64)_Installer-orange)](https://github.com/Lexz-08/releases/download/latest/Install-Webbedder-x64.exe)
