@@ -11,7 +11,8 @@ A program that displays any specified webpage using CefSharp, with some URL rest
 
 ## Command-Line
 Usage to Auto-Embed: `<path_to>\Webbedder.exe "<your_link>" /y`<br>
-Usage to Just Open: `<path_to>\Webbedder.exe "<your_link>"`
+Usage to Just Open: `<path_to>\Webbedder.exe "<your_link>"`<br>
+$\color{red}\text{NOTE: Attempting to use Webbedder.exe from the Start Menu will always result in it loading the default page: Google.}$
 
 ## Download
 [![](https://img.shields.io/badge/download-(x86)_Standalone-red)](https://github.com/Lexz-08/releases/download/latest/Webbedder-x86.zip)<br>
