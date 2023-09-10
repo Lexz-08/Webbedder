@@ -181,7 +181,6 @@ namespace Webbedder
 
 			if (_hideBorder)
 			{
-				trayicon_TitleBarToggle.Visible = false;
 				ShowInTaskbar = false;
 
 				Location = new Point(Location.X + 6, Location.Y + 70);
@@ -192,7 +191,6 @@ namespace Webbedder
 			}
 			else
 			{
-				trayicon_TitleBarToggle.Visible = true;
 				ShowInTaskbar = true;
 
 				Location = new Point(Location.X - 6, Location.Y - 70);
