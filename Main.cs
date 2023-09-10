@@ -181,6 +181,9 @@ namespace Webbedder
 
 			if (_hideBorder)
 			{
+				trayicon_TitleBarToggle.Visible = false;
+				ShowInTaskbar = false;
+
 				Location = new Point(Location.X + 6, Location.Y + 70);
 				Size = new Size(ClientSize.Width - 12, ClientSize.Height - 76);
 				panel_BrowserContainer.Location = new Point(0, 0);
@@ -189,6 +192,9 @@ namespace Webbedder
 			}
 			else
 			{
+				trayicon_TitleBarToggle.Visible = true;
+				ShowInTaskbar = true;
+
 				Location = new Point(Location.X - 6, Location.Y - 70);
 				Size = new Size(ClientSize.Width + 12, ClientSize.Height + 76);
 				panel_BrowserContainer.Location = new Point(6 + (sender == trayicon_TitleBarToggle ? 3 : 6), 65);
@@ -206,6 +212,8 @@ namespace Webbedder
 		{
 			_stateChangeSize = ClientSize;
 			WindowState = FormWindowState.Minimized;
+
+			trayicon_TitleBarToggle.Visible = false;
 		}
 
 		private void LoadWebpage_Click(object sender, EventArgs e)
@@ -272,7 +280,11 @@ namespace Webbedder
 				int wParam = (int)m.WParam & 0xFFF0;
 
 				if (wParam == SC_MINIMIZE) _stateChangeSize = ClientSize;
-				if (wParam == SC_RESTORE) Size = _stateChangeSize;
+				if (wParam == SC_RESTORE)
+				{
+					Size = _stateChangeSize;
+					trayicon_TitleBarToggle.Visible = true;
+				}
 			}
 
 			base.WndProc(ref m);
