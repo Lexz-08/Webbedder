@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Text;
 using System.Windows.Forms;
 
 using CefSharp.WinForms;
@@ -64,6 +65,7 @@ namespace Webbedder
 			trayicon_TitleBarToggle.Icon = Icon;
 
 			_wbdBrowser = new ChromiumWebBrowser(textbox_WebURL.Text);
+			_wbdBrowser.BrowserSettings.DefaultEncoding = "UTF-16";
 			panel_BrowserContainer.Controls.Add(_wbdBrowser);
 
 			int num = 0;
@@ -116,12 +118,6 @@ namespace Webbedder
 				LoadWebpage_Click(this, EventArgs.Empty);
 			}
 		}
-
-		#region Program Behavior
-
-		//
-
-		#endregion
 
 		#region Window Behavior
 
