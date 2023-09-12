@@ -15,7 +15,7 @@ Usage to Just Open: `<path_to>\Webbedder.exe "<your_link>"`<br>
 $\color{red}\text{NOTE: Attempting to use Webbedder.exe from the Start Menu will always result in it loading the default page: Google.}$
 
 ## Download
-[![](https://img.shields.io/badge/download-(x86)_Standalone-red)](https://github.com/Lexz-08/releases/download/latest/Webbedder-x86.zip)<br>
-[![](https://img.shields.io/badge/download-(x64)_Standalone-red)](https://github.com/Lexz-08/releases/download/latest/Webbedder-x64.zip)<br>
-[![](https://img.shields.io/badge/download-(x86)_Installer-orange)](https://github.com/Lexz-08/releases/download/latest/Install-Webbedder-x86.exe)<br>
-[![](https://img.shields.io/badge/download-(x64)_Installer-orange)](https://github.com/Lexz-08/releases/download/latest/Install-Webbedder-x64.exe)
+[![](https://img.shields.io/badge/download-(x86)_Standalone-red)](https://github.com/Lexz-08/Webbedder/releases/latest/download/Webbedder-x86.zip)<br>
+[![](https://img.shields.io/badge/download-(x64)_Standalone-red)](https://github.com/Lexz-08/Webbedder/releases/latest/download/Webbedder-x64.zip)<br>
+[![](https://img.shields.io/badge/download-(x86)_Installer-orange)](https://github.com/Lexz-08/Webbedder/releases/latest/download/Install-Webbedder-x86.exe)<br>
+[![](https://img.shields.io/badge/download-(x64)_Installer-orange)](https://github.com/Lexz-08/Webbedder/releases/latest/download/Install-Webbedder-x64.exe)
